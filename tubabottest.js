@@ -49,7 +49,9 @@ client.on('message', message =>{
             message.channel.send ('lol no adminfor u')
         } else if (command === 'byebyebrock'){
             message.channel.send ('@brockbreacher#1375')
-        } 
+        } else if (command === 'testhook'){
+            message.channel.send ('tetno')
+        }
         
 
         
