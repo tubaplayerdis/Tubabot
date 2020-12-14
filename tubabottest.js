@@ -28,7 +28,7 @@ client.on('message', message =>{
             message.channel.send('dm the owner of me for ideas')
         } else if (command === 'commandlist'){
             message.channel.send ('commands are 1ping 2youtube 3pingeveryone 4help 5timeout 6suggest')
-        } else if (command === 'annoybrock'){
+        } else if (command === 'annoyBrock'){
             message.channel.send ('brock I have your ip and you phone number, i have power')
         } else if (command === 'tesmodule'){
             message.channel.send ('this is for testing')
