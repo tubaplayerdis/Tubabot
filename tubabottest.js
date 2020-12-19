@@ -322,15 +322,15 @@ client.on('message', message =>{
             client.commands.get('kick').execute(message, args)
         } else if (message.content.startsWith('*ban')){
             client.commands.get('ban').execute(message, args)
-        } else if (message.content.startsWith('*userinfo')){
-            client.commands.get('uinfo').execute(client, message, args)
-        }  else if (message.content.startsWith('*MAE')){
+        } else if (message.content.startsWith('*MAE')){
             client.commands.get('MAE').execute(message, args, Discord)
-        }  else if (message.content.startsWith('*TMAE')){
+        } else if (message.content.startsWith('*TMAE')){
             client.commands.get('msgtest').execute(message, args, Discord) 
         } else if (message.content.startsWith('*HMAE')){
             client.commands.get('MAEhelp').execute(message, args, Discord)
-        }
+        } else if (message.content === `${prefix}server`) {
+            message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}\nServer creation date: ${message.guild.createdAt}\nServer region: ${message.guild.region}`);
+        } 
         
         
 
