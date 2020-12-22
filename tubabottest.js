@@ -330,7 +330,10 @@ client.on('message', message =>{
             client.commands.get('MAEhelp').execute(message, args, Discord)
         } else if (message.content === `${prefix}server`) {
             message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}\nServer creation date: ${message.guild.createdAt}\nServer region: ${message.guild.region}`);
-        } 
+        } else if (message.content.startsWith('*poll')){
+           message.react('👍')
+           message.react('👎') 
+        }
         
         
 
