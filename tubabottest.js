@@ -333,6 +333,8 @@ client.on('message', message =>{
         } else if (message.content.startsWith('*poll')){
            message.react('👍')
            message.react('👎') 
+        } else if (message.content.startWith('*yes')){
+            message.chantent.send('no')
         }
         
         
