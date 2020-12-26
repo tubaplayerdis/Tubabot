@@ -20,6 +20,11 @@ for(const file of commandsFiles){
 
 
 client.on("ready", () =>{
+    console.log('starting up');
+    console.log('initializing');
+    console.log('testing commands');
+    console.log('finishing initializing');
+    console.log('logging in');
     console.log('Tubabot is online');
     
 
