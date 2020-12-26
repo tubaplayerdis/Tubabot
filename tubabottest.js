@@ -335,6 +335,8 @@ client.on('message', message =>{
            message.react('👎') 
         } else if (message.content.startWith('*yes')){
             message.chantent.send('no')
+        } else if (message.content.startsWith('*hostinginfo"){
+            message.content.send('hosted on a rasberry pi 400')
         }
         
         
