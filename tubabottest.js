@@ -342,6 +342,8 @@ client.on('message', message =>{
             message.channel.send('no')
         } else if (message.content.startsWith('*hostinginfo')){
             message.channel.send('hosted on a rasberry pi 400')
+        } else if (message.content.startsWith('*invite')){
+            message.channel.send('https://discord.com/oauth2/authorize?client_id=775128224224509963&scope=bot&permissions=8')
         }
         
         
