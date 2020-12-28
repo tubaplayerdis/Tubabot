@@ -344,6 +344,8 @@ client.on('message', message =>{
             message.channel.send('hosted on a rasberry pi 400')
         } else if (message.content.startsWith('*invite')){
             message.channel.send('https://discord.com/oauth2/authorize?client_id=775128224224509963&scope=bot&permissions=8')
+        } else if (message.content.startsWith('*piinfo')){
+            message.channel.send('4gb of ram and a arm proccesor')
         }
         
         
