@@ -26,6 +26,7 @@ client.on("ready", () =>{
     console.log('finishing initializing');
     console.log('logging in');
     console.log('Tubabot is online');
+    client.user.setActivity('2020 ALMOST OVER - USE *help')
     
 
  });
