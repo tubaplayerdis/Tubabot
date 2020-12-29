@@ -9,7 +9,7 @@ module.exports = {
         .addFields(
 
             {name: 'old library system vids', value: '1.wierd1, 2.wierd2, 3.wierd3, 4.rickroll, 5.amazongo, 6.NSFW1, 7.NSFW2'},
-            {name: 'how to use new library system', value: 'how to use: L1=library 1 v3=video3. ex L1v3 has 8 vids in L! and ten in L2 and L3'},
+            {name: 'how to use new library system', value: 'how to use: L1=library 1 v3=video3. ex command, "*L1v3". ten vids in all libraries'},
             {name: 'libaries', value: 'L1,L2,L3,(nsfw)L4'},
             {name: 'notes', value: 'on tenthvid relpacle 1 with capital I'}
         )
