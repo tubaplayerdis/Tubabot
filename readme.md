@@ -1,6 +1,6 @@
 couple things to consider
 
-1 this code does not work out of the box, you will need to use these commands to install certainpackages for certain commands
+this code does not work out of the box, you will need to use these commands to install certain packages for certain commands after installing node.js and making a node project, using npm init
 
 1 text to ascii use npm i figlet
 
