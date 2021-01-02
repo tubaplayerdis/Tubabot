@@ -343,11 +343,23 @@ client.on('message', message =>{
             message.channel.send('no')
         } else if (message.content.startsWith('*hostinginfo')){
             message.channel.send('hosted on a rasberry pi 400')
-        } else if (message.content.startsWith('*invite')){
-            message.channel.send('https://discord.com/oauth2/authorize?client_id=775128224224509963&scope=bot&permissions=8')
         } else if (message.content.startsWith('*piinfo')){
             message.channel.send('4gb of ram and a arm proccesor')
-        }
+        } else if (message.content.startsWith('*invite')){
+            message.channel.send('https://discord.com/oauth2/authorize?client_id=775128224224509963&scope=bot&permissions=8')
+        } else if (message.content.startsWith('*yo')){
+            Message.channel.send('yo')
+        } else if (message.content.startsWith('*avatar')){
+            client.commands.get('avatar').execute(client, message, args)
+        } else if (message.content.startsWith('*meme')){
+            client.commands.get('meme').execute(client, message, args)
+        } else if (message.content.startsWith('*weather')){
+            client.commands.get('weather').execute(client, message, args)
+        } else if (message.content.startsWith('*calculate')){
+            client.commands.get('calculate').execute(client, message, args)
+        } else if (message.content.startsWith('*ascii')){
+            client.commands.get('ascii').execute(client, message, args)
+        } 
         
         
 
