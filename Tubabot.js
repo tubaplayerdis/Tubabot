@@ -359,7 +359,13 @@ client.on('message', message =>{
             client.commands.get('calculate').execute(client, message, args)
         } else if (message.content.startsWith('*ascii')){
             client.commands.get('ascii').execute(client, message, args)
-        } 
+        } else if (message.content.startsWith('*warn')){
+            client.commands.get('warn').execute(client, message, args)
+        } else if (message.content.startsWith('*checkwarns')){
+            client.commands.get('warnings').execute(client, message, args)
+        } else if (message.content.startsWith('*deletewarns')){
+            client.commands.get('deletewarns').execute(client, message, args)
+        }  
         
         
 
