@@ -14,7 +14,7 @@ those will be used for those commands
 
 aslo this bot was for purposes of fun olny and i would not like if Tubabot was used to monotize.
 
-Tubabot was originaly named tubabottest and thats the mane you willl find in old node versions of this project.
+Tubabot was originaly named tubabottest and thats the mane you will find in old node versions of this project.
 
 there were other bots made for beta, but I decided to scrap and instead just update Tubabot.
 
@@ -22,4 +22,4 @@ I will add a licence soon
 
 This is currently olny for devs
 
-if you obtanied this by other means than github, stop stealing, you are stealing from a 14 year old child.
+if you obtanied this by other means than github or offical discord, stop stealing, you are stealing from a 14 year old child.
