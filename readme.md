@@ -10,6 +10,8 @@ this code does not work out of the box, you will need to use these commands to i
 
 4 weather use npm i weather-js
 
+5 for warn system use npm i quick.db
+
 those will be used for those commands
 
 aslo this bot was for purposes of fun olny and i would not like if Tubabot was used to monotize.
