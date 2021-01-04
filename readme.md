@@ -10,7 +10,9 @@ this code does not work out of the box, you will need to use these commands to i
 
 4 weather use npm i weather-js
 
-5 for warn system use npm i quick.db
+5 for warn system use npm i quick.db@7.0.0-b21
+
+6 for economy use npm i parse-ms
 
 those will be used for those commands
 
