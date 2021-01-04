@@ -7,9 +7,11 @@ module.exports = {
         .setTitle('CMD info')
         .setDescription('CMD info for people who need CMD info!')
         .addFields(
-
+            {name: 'help menu', value: 'these commands consist of help library info etc, mostly used for help'},
+            {name: 'cool stuff', value: 'these commands are just commands that the dev found cool, weather gets weather in a area and acsii makes letters into ascii'},
+            {name: 'moderation', value: 'moderation commands are used for moderating servers by autimating things like bulk message delete (use *purge)'},            
             {name: 'LibraryCMD', value: 'The library of commands is the main part of this bot and has alot of them use *libraryinfo for descriptions on libraries '},
-            {name: 'uslessCMD', value: 'useless commands that dont do anything use'},
+            {name: 'uslessCMD', value: 'useless commands that dont do anything useful'},
             {name: 'brockCMD', value: 'to annoy brock use '},
             {name: 'extra ifno', value: 'for brockcommandlist *brockcommandlist for libraryCMD *librarycommandlist for uslessCMD use *uslesscommandlist'}
         )
