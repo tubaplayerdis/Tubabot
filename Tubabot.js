@@ -365,7 +365,36 @@ client.on('message', message =>{
             client.commands.get('warnings').execute(client, message, args)
         } else if (message.content.startsWith('*deletewarns')){
             client.commands.get('deletewarns').execute(client, message, args)
-        }  
+        } else if (message.content.startsWith('*bal')){
+            client.commands.get('bal').execute(client, message, args)
+        } else if (message.content.startsWith('*daily')){
+            client.commands.get('daily').execute(client, message, args)
+        } else if (message.content.startsWith('*work')){
+            client.commands.get('work').execute(client, message, args)
+        } else if (message.content.startsWith('*leaderboard')){
+            client.commands.get('leaderboard').execute(client, message, args)
+        } else if (message.content.startsWith('*store')){
+            client.commands.get('store').execute(client, message, args)
+        } else if (message.content.startsWith('*buy')){
+            client.commands.get('buy').execute(client, message, args)
+        } else if (message.content.startsWith('*inventory')){
+            client.commands.get('inventory').execute(client, message, args)
+        } else if (message.content.startsWith('*lb')){
+            client.commands.get('leaderboard').execute(client, message, args)
+        } else if (message.content.startsWith('*killbot')){
+            if (message.author.id === '718631845604098159') {
+                message.channel.send('killing')
+                process.exit()
+            } else {
+                message.channel.send('olny the owner can kill the bot')
+            }
+        } else if (message.content.startsWith('*give')){
+            if(message.author.id === '718631845604098159'){
+            client.commands.get('give').execute(client, message, args)
+            } else {
+                message.channel.send("olny the owner of the bot can give money")
+            }
+        } 
         
         
 
