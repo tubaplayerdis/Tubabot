@@ -49,7 +49,7 @@ client.on('message', message =>{
      } else if (message.content.startsWith('*youtube')){
             message.channel.send('https://www.youtube.com/channel/UCf_fvEG2qm6ypT69rU_Fz2A')
         } else if (command === 'pingeveryone'){
-            message.channel.send('@everyone')
+            message.channel.send('@.everyone')
         } else if (message.content.startsWith('*help')){
             client.commands.get('help').execute(message, args, Discord);
         } else if (message.content.startsWith('*timeout')){
