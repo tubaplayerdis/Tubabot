@@ -80,7 +80,7 @@ client.on('message', message =>{
         } else if (message.content.startsWith('*byebyebrock')){
             message.channel.send ('@brockbreacher#1375')
         } else if (message.content.startsWith('*bubblewrap')){
-            message.channel.send ('Bubblewrap,||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||')
+            message.channel.send ('Bubblewrap: \n||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||')
         } else if (message.content.startsWith('*oldcommand(type)UBE')){
             message.channel.send ('https://join.theube.xyz/')
         } else if (message.content.startsWith('*wierd1')){
@@ -389,12 +389,12 @@ client.on('message', message =>{
                 message.channel.send('olny the owner can kill the bot')
             }
         } else if (message.content.startsWith('*give')){
-            if(message.author.id === '718631845604098159'){
+            if(message.member.permissions.has("MANAGE_MESSAGES")){
             client.commands.get('give').execute(client, message, args)
             } else {
-                message.channel.send("olny the owner of the bot can give money")
+                message.channel.send("olny perople with the manage messages perm can give money")
             }
-        } 
+        }
         
         
 
