@@ -14,6 +14,8 @@ this code does not work out of the box, you will need to use these commands to i
 
 6 for economy use npm i parse-ms
 
+7 for invitecheck use npm i node-fetch
+
 those will be used for those commands
 
 aslo this bot was for purposes of fun olny and i would not like if Tubabot was used to monotize.
@@ -26,4 +28,4 @@ I will add a licence soon
 
 This is currently olny for devs
 
-if you obtanied this by other means than github or offical discord, stop stealing, you are stealing from a 14 year old child.
+if you obtanied this by other means than github or offical discord, stop stealing, you are stealing from a 14 year old kid.
