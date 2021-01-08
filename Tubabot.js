@@ -392,9 +392,17 @@ client.on('message', message =>{
             if(message.member.permissions.has("MANAGE_MESSAGES")){
             client.commands.get('give').execute(client, message, args)
             } else {
-                message.channel.send("olny perople with the manage messages perm can give money")
+                message.channel.send("olny people with the manage messages perm can give money")
             }
-        }
+        } else if (message.content.startsWith('*checkinvite')){
+            client.commands.get('invitecheck').execute(client, message, args)
+        } else if (message.content.startsWith('*remove')){
+            if(message.member.permissions.has("MANAGE_MESSAGES")){
+            client.commands.get('remove').execute(client, message, args)
+            } else {
+               message.channel.send("olny people with the manage messages perm can remove money") 
+            }
+        } 
         
         
 
