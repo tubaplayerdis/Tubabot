@@ -402,7 +402,11 @@ client.on('message', message =>{
             } else {
                message.channel.send("olny people with the manage messages perm can remove money") 
             }
-        } 
+        } else if (message.content.startsWith('*jimp')){
+            client.commands.get('jimp').execute(client, message, args)
+        } else if (message.content.startsWith('*Trump')){
+            client.commands.get('Trump').execute(client, message, args)
+        }   
         
         
 
