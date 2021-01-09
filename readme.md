@@ -16,6 +16,8 @@ this code does not work out of the box, you will need to use these commands to i
 
 7 for invitecheck use npm i node-fetch
 
+8 for image commands use npm i jimp
+
 those will be used for those commands
 
 aslo this bot was for purposes of fun olny and i would not like if Tubabot was used to monotize.
