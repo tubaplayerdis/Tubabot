@@ -14,7 +14,10 @@ module.exports = {
         
             
         sentence = sentence.join(" ");
+
         
+        
+
         let font = await jimp.loadFont(jimp.FONT_SANS_16_BLACK) 
 
         let text = await jimp.loadFont(jimp.FONT_SANS_32_BLACK) 
@@ -24,11 +27,15 @@ module.exports = {
 
         let box = await jimp.read('https://cdn.discordapp.com/attachments/739487007876841542/797510607351578624/pll441gw.jpg')
         
+        let signature = await jimp.read('https://cdn.discordapp.com/attachments/739487007876841542/797623302185156658/trump-signature-16x-9_colorcorrected.jpeg')
+
         let trump = await jimp.read('https://cdn.discordapp.com/attachments/739487007876841542/797548908837994514/trump.jpeg')
         trump.resize(440, 292.6)
         box.resize(300, 294)
+        signature.resize(200, 200)
         welcome.composite(trump, 0, 0) //We put the avatar on the image on the position 20, 20
         welcome.composite(box, 440, 0)
+        welcome.composite(signature, 450, 35)
         welcome.print(font, 450, 5, sentence)
         welcome.write('Test.png')
         message.channel.send(``, { files: ["Test.png"] })
