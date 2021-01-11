@@ -406,6 +406,8 @@ client.on('message', message =>{
             client.commands.get('jimp').execute(client, message, args)
         } else if (message.content.startsWith('*Trump')){
             client.commands.get('Trump').execute(client, message, args)
+        } else if (message.content.startsWith('*inv')){
+            client.commands.get('inventory').execute(client, message, args)
         }   
         
         
