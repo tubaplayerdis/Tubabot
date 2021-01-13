@@ -2,6 +2,9 @@ module.exports = {
     name: 'commandlist',
     description: "commandlist?",
     execute(message, args, Discord){
+        
+        let member = message.author
+        
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#1500FF')
         .setTitle('General commandlist')
@@ -18,7 +21,8 @@ module.exports = {
         )
         .setImage('https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Clipboard.svg/1024px-Clipboard.svg.png')
         .setFooter(' generalcommandlist for Tubabot')
-        message.channel.send(newEmbed);
+        message.channel.send(`Into your dms ${member}`);
+        member.send(newEmbed);
     }
 
     
