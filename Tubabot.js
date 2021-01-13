@@ -26,7 +26,7 @@ client.on("ready", () =>{
     console.log('finishing initializing');
     console.log('logging in');
     console.log('Tubabot is online');
-    client.user.setActivity('YES YES YES - USE *help')
+    client.user.setActivity('IN 10 SERVERS :) - USE *help')
     
 
  });
