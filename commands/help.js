@@ -2,6 +2,9 @@ module.exports = {
     name: 'help',
     description: "for helping",
     execute(message, args, Discord){
+        
+        let member = message.author
+        
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#1500FF')
         .setTitle('Help')
@@ -15,7 +18,8 @@ module.exports = {
         )
         .setImage('https://childadolescentpsych.cumc.columbia.edu/sites/default/files/styles/555x315/public/HelpFriend-HelpSign-613244854%20555x315.jpg?itok=IzH1dmRK')
         .setFooter('help command for Tubabot')
-        message.channel.send(newEmbed);
+        message.channel.send(`Into your dms ${member}`);
+        member.send(newEmbed);
     }
 
     
