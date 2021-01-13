@@ -14,7 +14,7 @@ module.exports = {
             {name: 'Moderation', value: '1 ban \n 2 kick \n 3 purge(delete messages) \n 4 warn \n 5 checkwarns \n 6 deletewarns'},
             {name: 'Cool commands', value: '1 MAE \n 2 avatar \n 3 ascii \n 4 weather \n 5 meme \n 6 Trump \n 7 jimp'},
             {name: 'Utility', value: '1 checkinvite'},        
-            {name: 'Extracommandlists', value:'10 brockcommandlist \n 11 uselesscommandlist \n 12 libraycommandlsit  \n 13 infocommandlist  \n 14 updateinfo'}
+            {name: 'Extracommandlists', value:'1 uselesscommandlist \n 2 libraycommandlsit  \n 3 infocommandlist  \n 4 updateinfo'}
         )
         .setImage('https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Clipboard.svg/1024px-Clipboard.svg.png')
         .setFooter(' generalcommandlist for Tubabot')
