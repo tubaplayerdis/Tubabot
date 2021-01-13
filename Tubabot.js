@@ -26,7 +26,7 @@ client.on("ready", () =>{
     console.log('finishing initializing');
     console.log('logging in');
     console.log('Tubabot is online');
-    client.user.setActivity('US CAPITAL STORMED - USE *help')
+    client.user.setActivity('YES YES YES - USE *help')
     
 
  });
@@ -58,8 +58,6 @@ client.on('message', message =>{
             message.channel.send('dm the owner of me for ideas')
         } else if (message.content.startsWith ('*commandlist')){
             client.commands.get('commandlist').execute(message, args, Discord);
-        } else if (message.content.startsWith('*annoybrock')){
-            message.channel.send ('brock I have your ip and you phone number, i have power')
         } else if (message.content.startsWith('*testcommand')){
             message.channel.send ('this is for testing')
         } else if(message.content.startsWith("*say")){
@@ -77,8 +75,6 @@ client.on('message', message =>{
         
         } else if(message.content.startsWith('*tu Admin')){
             message.channel.send ('lol no adminfor u')
-        } else if (message.content.startsWith('*byebyebrock')){
-            message.channel.send ('@brockbreacher#1375')
         } else if (message.content.startsWith('*bubblewrap')){
             message.channel.send ('Bubblewrap: \n||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop|||| pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||')
         } else if (message.content.startsWith('*oldcommand(type)UBE')){
