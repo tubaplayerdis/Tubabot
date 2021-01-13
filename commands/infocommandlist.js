@@ -2,6 +2,9 @@ module.exports = {
     name: 'infocommandlist',
     description: "for info on CMD lits",
     execute(message, args, Discord){
+        
+        let member = message.author
+        
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#1500FF')
         .setTitle('CMD info')
@@ -16,7 +19,8 @@ module.exports = {
         )
         .setImage('https://lh3.googleusercontent.com/proxy/0NVfyYItGzpsP43kwb-msqVbDVkjnCAyT2I4nYUX35hSSA-at8h8gW2Hla8VD26y3yfrjDXvQF7SOhi1Z4ih18E8B3BNdOv1')
         .setFooter('CMD info command for Tubabot')
-        message.channel.send(newEmbed);
+        message.channel.send(`Into your dms ${member}`);
+        member.send(newEmbed);
     }
 
     
