@@ -415,7 +415,9 @@ client.on('message', message =>{
             client.commands.get('HMAE').execute(client, message, args)
         } else if (message.content.startsWith('*tmae')){
             client.commands.get('msgtest').execute(client, message, args)
-        }   
+        } else if (message.content.startsWith('*balance')){
+            client.commands.get('bal').execute(client, message, args)
+        }    
         
         
 
