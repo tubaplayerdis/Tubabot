@@ -405,6 +405,16 @@ client.on('message', message =>{
             client.commands.get('Trump').execute(client, message, args)
         } else if (message.content.startsWith('*inv')){
             client.commands.get('inventory').execute(client, message, args)
+        } else if (message.content.startsWith('*ube')){
+            client.commands.get('UBE').execute(client, message, args)
+        } else if (message.content.startsWith('*trump')){
+            client.commands.get('Trump').execute(client, message, args)
+        } else if (message.content.startsWith('*mae')){
+            client.commands.get('MAE').execute(client, message, args)
+        } else if (message.content.startsWith('*hmae')){
+            client.commands.get('HMAE').execute(client, message, args)
+        } else if (message.content.startsWith('*tmae')){
+            client.commands.get('msgtest').execute(client, message, args)
         }   
         
         
