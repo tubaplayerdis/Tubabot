@@ -61,7 +61,8 @@ client.on('message', message =>{
         } else if (message.content.startsWith('*testcommand')){
             message.channel.send ('this is for testing')
         } else if(message.content.startsWith("*say")){
-
+            message.content = message.content.replace(/@(everyone)/gi, "@.everyone").replace(/@(here)/gi, "@.here");
+            message.content = message.cleanContent
             /* This takes the sentence sent, and makes it an array. In this case, a list of words. It 'splits' the list up wherever it sees space.*/
             let sentence = message.content.split(" ");
             
