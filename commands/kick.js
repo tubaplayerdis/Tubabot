@@ -16,7 +16,7 @@ module.exports = {
                 .setColor('#FF4500')
                 .setTitle('KICK')
                 .setDescription(`${author} kicked ${memberTarget}`)
-                .setFooter(`Reason: \`${reason}\``)
+                .setFooter(`Reason: ${reason}`)
                 memberTarget.send(`you were kicked in ${message.guild.name} for the follwoing reason: \`${reason}\``)
                 message.channel.send(banembed);
             }else{
