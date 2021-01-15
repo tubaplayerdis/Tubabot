@@ -15,7 +15,7 @@ module.exports = {
                 .setColor('#FF4500')
                 .setTitle('BAN')
                 .setDescription(`${author} banned ${memberTarget}`)
-                .setFooter(`Reason: ${reason}`)
+                .setFooter(`Reason: \`${reason}\``)
                 memberTarget.send(`you were banned in ${message.guild.name} for the follwoing reason: \`${reason}\``)
                 message.channel.send(banembed);
             }else{
