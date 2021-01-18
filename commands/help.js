@@ -11,7 +11,7 @@ module.exports = {
         .setDescription('Help commands for peeps who need help!')
         .addFields(
 
-            {name: 'Library help', value: 'use *librarycommandlist for help'},
+            
             {name: 'Command help', value: 'use *commandlist for commands'},
             {name: 'Extra help', value: 'use *infocommandlist. join server for more help, https://discord.gg/gMWaasvj8M'},
             {name: 'Invite bot', value: 'https://discord.com/oauth2/authorize?client_id=775128224224509963&scope=bot&permissions=8'}
