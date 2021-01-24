@@ -224,4 +224,4 @@ client.on('message', message =>{
         
 });
 
-client.login('Nzc1MTI4MjI0MjI0NTA5OTYz.X6h0aQ.rcH2nu4PSsfHy1kFDis_nKcsDFs');
+client.login(token2);
