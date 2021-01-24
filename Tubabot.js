@@ -15,7 +15,7 @@ for(const file of commandsFiles){
     client.commands.set(command.name, command);
 }
 
-
+const { token2 } = require('./token.json')
 
 
 
