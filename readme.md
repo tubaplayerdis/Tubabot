@@ -26,10 +26,10 @@ Tubabot was originaly named tubabottest and thats the mane you will find in old 
 
 there were other bots made for beta, but I decided to scrap and instead just update Tubabot.
 
-I will add a licence soon
+follow license
 
-This is currently olny for devs
+This is for everyone
 
 to wipe or restore from backup delete json.sqlite(keep all economy info)(generated on first startup)(to erase, and to restore add a json.sqilte to the folder that has info)
 
-if you obtanied this by other means than github or offical discord, stop stealing, you are stealing from a 14 year old kid.
+
