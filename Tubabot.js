@@ -216,7 +216,12 @@ client.on('message', message =>{
             client.commands.get('msgtest').execute(message, args, Discord)
         } else if (message.content.startsWith('*balance')){
             client.commands.get('bal').execute(message, args, Discord)
-        }    
+        } else if (message.content.startsWith('purge'){
+                    if(message.member.permissions.has("MANAGE_MESSAGES")){
+            client.commands.get('purge').execute(client, message, args)
+            } else {
+               message.channel.send("olny people with the manage messages perm can bulk delete messages") 
+            }
         
         
 
