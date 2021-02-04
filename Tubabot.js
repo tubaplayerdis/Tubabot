@@ -144,7 +144,7 @@ client.on('message', message =>{
         } else if (message.content.startsWith('*invite')){
             message.channel.send('https://discord.com/oauth2/authorize?client_id=775128224224509963&scope=bot&permissions=8')
         } else if (message.content.startsWith('*yo')){
-            Message.channel.send('yo')
+            message.channel.send('yo')
         } else if (message.content.startsWith('*avatar')){
             client.commands.get('avatar').execute(client, message, args)
         } else if (message.content.startsWith('*meme')){
