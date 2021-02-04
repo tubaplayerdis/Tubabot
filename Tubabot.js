@@ -222,7 +222,10 @@ client.on('message', message =>{
             } else {
                message.channel.send("olny people with the manage messages perm can bulk delete messages") 
             }
-        
+    
+        }  else if (message.content.startsWith('*top')){
+            client.commands.get('leaderboard').execute(client, message, args)
+        } 
         
 
 
