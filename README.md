@@ -1,8 +1,9 @@
-#Tubabot
+# Tubabot
+offical respitory of Tubabot,
 
 couple things to consider
 
-this code does not work out of the box, you will need to use these commands to install certain packages for certain commands after installing node.js and making a node project, using npm init
+This code does not work out of the box, you will need to use these commands to install certain packages for certain commands after installing node.js and making a node project, using npm init
 
 1 text to ascii use npm i figlet
 
@@ -28,10 +29,18 @@ Tubabot was originaly named tubabottest and thats the mane you will find in old 
 
 there were other bots made for beta, but I decided to scrap and instead just update Tubabot.
 
-follow license
+Follow license
 
 This is for everyone
 
-to wipe or restore from backup delete json.sqlite(keep all economy info)(generated on first startup)(to erase, and to restore add a json.sqilte to the folder that has info)
+To wipe or restore from backup delete json.sqlite(keep all economy info)(generated on first startup)(to erase, and to restore add a json.sqilte to the folder that has info),
+
+# Extra Info
+
+1 some files may be missing
+
+2 some commands may not be fully updated
+
+3 bot may not work from download.
 
 
