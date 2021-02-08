@@ -22,4 +22,4 @@ module.exports = {
         }
     }
 }
-\\does not work and will have to modify to work with our command system
+// does not work and will have to modify to work with our command system
