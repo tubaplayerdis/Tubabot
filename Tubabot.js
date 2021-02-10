@@ -125,6 +125,7 @@ client.on('message', message =>{
         } else if (message.content.startsWith('*ban')){
             client.commands.get('ban').execute(message, args)
         } else if (message.content.startsWith('*MAE')){
+            message.delete()
             client.commands.get('MAE').execute(message, args, Discord)
         } else if (message.content.startsWith('*TMAE')){
             client.commands.get('msgtest').execute(message, args, Discord) 
@@ -209,6 +210,7 @@ client.on('message', message =>{
         } else if (message.content.startsWith('*trump')){
             client.commands.get('Trump').execute(client, message, args)
         } else if (message.content.startsWith('*mae')){
+            message.delete()
             client.commands.get('MAE').execute(message, args, Discord)
         } else if (message.content.startsWith('*hmae')){
             client.commands.get('HMAE').execute(message, args, Discord)
