@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'ping',
-    description: "this is a ping cmd",
+    name: 'ntinfo',
+    description: "displays network info",
 execute(message, args, Discord, client){
              const embed = new Discord.MessageEmbed()
             .setTitle('Network info')
