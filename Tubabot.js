@@ -229,6 +229,8 @@ client.on('message', message =>{
             client.commands.get('leaderboard').execute(client, message, args)
         }  else if (message.content.startsWith('*reload')){
             client.commands.get('reload').execute(client, message, args, user, text, prefix)
+        } else if (message.content.startsWith('*ntinfo')){
+            client.commands.get('ntinfo').execute(message, args, Discord, client)
         }
 
 
