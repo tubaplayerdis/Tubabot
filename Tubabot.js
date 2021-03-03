@@ -207,7 +207,8 @@ client.on('message', message =>{
             client.commands.get('inventory').execute(client, message, args)
         }  else if (message.content.startsWith('*ube')){
             client.commands.get('UBE').execute(message, args, Discord)
-        } else if (message.content.startsWith('*trump')){
+        } //Take command from here
+    else if (message.content.startsWith('*trump')){
             client.commands.get('Trump').execute(client, message, args)
         } else if (message.content.startsWith('*mae')){
             message.delete()
