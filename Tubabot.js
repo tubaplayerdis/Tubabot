@@ -232,7 +232,9 @@ client.on('message', message =>{
             client.commands.get('reload').execute(client, message, args, user, text, prefix)
         } else if (message.content.startsWith('*ntinfo')){
             client.commands.get('ntinfo').execute(message, args, Discord, client)
-        }
+        } else if (message.content.startsWith('*mastrubationtip')){
+            message.channel.send('Use a banket to mastrubate instead of your hand. put it around your dick and slide it accros your dick, also use a soft blanket')
+        }  
 
 
         
