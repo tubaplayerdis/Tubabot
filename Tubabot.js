@@ -234,7 +234,9 @@ client.on('message', message =>{
             client.commands.get('ntinfo').execute(message, args, Discord, client)
         } else if (message.content.startsWith('*mastrubationtip')){
             message.channel.send('Use a banket to mastrubate instead of your hand. put it around your dick and slide it accros your dick, also use a soft blanket')
-        }  
+        } else if (message.content.startsWith('*day')){
+            message.channel.send('https://www.tiktok.com/@brandnoot/video/6974623742974627077?is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6940634231467689477')
+        }    
 
 
         
