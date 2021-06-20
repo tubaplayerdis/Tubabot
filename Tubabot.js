@@ -234,7 +234,7 @@ client.on('message', message =>{
             client.commands.get('ntinfo').execute(message, args, Discord, client)
         } else if (message.content.startsWith('*mastrubationtip')){
             if (message.channel.nsfw){
-                 message.channel.send('Use a banket to mastrubate instead of your hand. put it around your dick and slide it accros your dick, also use a soft blanket')
+                 message.channel.send('Use a blanket to mastrubate instead of your hand. put it around your dick and slide it accros your dick, also use a soft blanket.')
             } else {
                 message.channel.send('this command can only be used in a nsfw server')
             }
